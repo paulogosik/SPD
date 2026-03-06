@@ -61,6 +61,8 @@ def atender_cliente(conn: socket.socket, addr: tuple, chave: str):
             # 2. Decriptar (simulação) e deserializar
             dados = crypto_simple.decrypt(texto, chave)
             obj = json.loads(dados)
+            print(f"[{client_id}] Mensagem recebida: {obj}")
+            print(f"---")
             # 3. Processar e montar resposta (ex.: ecoar com confirmação)
             resposta = {"recebido": True, "dados": obj, "cliente": client_id}
             resposta_serializada = json.dumps(resposta)
@@ -78,6 +80,7 @@ def main():
     server.bind((HOST, PORT))
     server.listen(5)
     print(f"Servidor escutando em {HOST}:{PORT}")
+    print(f"---")
 
     while True:
         conn, addr = server.accept()
