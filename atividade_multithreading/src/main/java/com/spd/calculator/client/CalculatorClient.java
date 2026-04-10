@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class CalculatorClient {
 
     private static final String DEFAULT_HOST = "localhost";
-    private static final int DEFAULT_PORT = 5000;
+    private static final int DEFAULT_PORT = 6969;
 
     private final String host;
     private final int port;

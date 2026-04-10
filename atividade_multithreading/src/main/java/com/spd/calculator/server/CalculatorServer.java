@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class CalculatorServer {
 
-    private static final int DEFAULT_PORT = 5000;
+    private static final int DEFAULT_PORT = 6969;
     private static final int THREAD_POOL_SIZE = 20;
 
     private final int port;
