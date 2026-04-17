@@ -1,0 +1,30 @@
+[
+  {
+    "leilao": "MACBOOK_AIR_M1",
+    "data": "17/04/2026",
+    "eventos": [
+      {"hora": "19:54:09", "tipo": "ITEM", "item": "MACBOOK_AIR_M1", "preco_inicial": "2500.0"},
+      {"hora": "19:54:24", "tipo": "NEW_BID", "cliente": "PAULO GOSIK", "valor": "2700.0"},
+      {"hora": "19:54:28", "tipo": "NEW_BID", "cliente": "PROFESSOR FABIO", "valor": "3000.0"},
+      {"hora": "19:54:32", "tipo": "NEW_BID", "cliente": "PROFESSOR FABIO", "valor": "3100.0"},
+      {"hora": "19:54:39", "tipo": "NEW_BID", "cliente": "PAULO GOSIK", "valor": "3150.0"},
+      {"hora": "19:54:44", "tipo": "NEW_BID", "cliente": "PROFESSOR FABIO", "valor": "3200.0"},
+      {"hora": "19:55:09", "tipo": "NEW_BID", "cliente": "PAULO GOSIK", "valor": "3300.0"},
+      {"hora": "19:55:12", "tipo": "ENCERRADO", "vencedor": "PAULO GOSIK", "valor": "3300.0"}
+    ]
+  },
+  {
+    "leilao": "IPHONE_13",
+    "data": "17/04/2026",
+    "eventos": [
+      {"hora": "19:55:44", "tipo": "ITEM", "item": "IPHONE_13", "preco_inicial": "1800.0"},
+      {"hora": "19:55:51", "tipo": "NEW_BID", "cliente": "PAULO GOSIK", "valor": "1900.0"},
+      {"hora": "19:56:00", "tipo": "NEW_BID", "cliente": "PROFESSOR FABIO", "valor": "1950.0"},
+      {"hora": "19:56:38", "tipo": "NEW_BID", "cliente": "PAULO GOSIK", "valor": "2000.0"},
+      {"hora": "19:56:49", "tipo": "NEW_BID", "cliente": "PROFESSOR FABIO", "valor": "2100.0"},
+      {"hora": "19:56:58", "tipo": "NEW_BID", "cliente": "PAULO GOSIK", "valor": "2150.0"},
+      {"hora": "19:57:03", "tipo": "NEW_BID", "cliente": "PROFESSOR FABIO", "valor": "2300.0"},
+      {"hora": "19:57:06", "tipo": "ENCERRADO", "vencedor": "PROFESSOR FABIO", "valor": "2300.0"}
+    ]
+  }
+]
