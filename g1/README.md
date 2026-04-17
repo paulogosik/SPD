@@ -1,8 +1,4 @@
-# G1 — Plataforma de Leilão Eletrônico
-
-## Requisitos
-
-- Java 11+
+# G1 — Paulo Gosik Mascarenhas Moita
 
 ## Como compilar
 
